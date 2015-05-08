@@ -27,7 +27,7 @@
   ],
   "targetDependencies": {
     "watch": {
-      "mbed-hal-efm32gg-watch": "~0.0.1"
+      "mbed-hal-efm32gg-watch": "ARMmbed/mbed-hal-efm32gg#~0.0.1"
     }
   }
 }
