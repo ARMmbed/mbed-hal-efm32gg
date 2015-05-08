@@ -1,0 +1,33 @@
+{
+  "name": "mbed-hal-efm32gg",
+  "version": "0.0.0",
+  "description": "mbed low-level HAL implementation for Silicon Labs' EFM32 Giant Gecko Microcontrollers",
+  "private": true,
+  "keywords": [
+    "mbed",
+    "hal",
+    "efm32gg",
+    "efm32",
+    "silabs"
+  ],
+  "author": "marcus.chang@arm.com",
+  "repository": {
+    "url": "https://github.com/ARMmbed/mbed-hal-efm32gg.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-hal-efm32gg",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "mbed-hal-efm32gg"
+  ],
+  "targetDependencies": {
+    "watch": {
+      "mbed-hal-efm32gg-watch": "~0.0.1"
+    }
+  }
+}
