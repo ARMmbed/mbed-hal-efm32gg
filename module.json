@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-efm32gg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mbed low-level HAL implementation for Silicon Labs' EFM32 Giant Gecko Microcontrollers",
   "private": true,
   "keywords": [
