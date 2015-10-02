@@ -50,6 +50,7 @@ set_property(SOURCE ${STARTUP_ASM} PROPERTY LANGUAGE ASM)
 add_library(mbed-hal-efm32gg
     ${STARTUP_ASM}
     ${STARTUP_SRC}
+    "PeripheralPins.c"
 )
 
 set_target_properties(mbed-hal-efm32gg PROPERTIES
