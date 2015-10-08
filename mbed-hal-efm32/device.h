@@ -61,5 +61,6 @@
 
 #include "objects.h"
 #include "device_peripherals.h"
+#include "uvisor-lib/uvisor-lib.h"
 
 #endif
