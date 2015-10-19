@@ -59,8 +59,7 @@
 
 #define DEVICE_ERROR_PATTERN    1
 
-#include "objects.h"
-#include "device_peripherals.h"
-#include "uvisor-lib/uvisor-lib.h"
+#include "mbed-hal-efm32/objects.h"
+#include "mbed-hal-efm32/device_peripherals.h"
 
 #endif
