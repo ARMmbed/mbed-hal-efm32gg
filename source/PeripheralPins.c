@@ -22,6 +22,7 @@
  ******************************************************************************/
 
 #include "mbed-hal-efm32/PeripheralPins.h"
+#include "em_device.h"
 
 /************ADC***************/
 /* The third "function" value is used to select the correct ADC channel */
@@ -166,12 +167,12 @@ const PinMap PinMap_SPI_CS[] = {
 /************UART**************/
 const PinMap PinMap_UART_TX[] = {
     /* UART0 */
-#ifdef UART_0
+#if defined(UART0)
     {PF6, UART_0, 0},
     {PE0, UART_0, 1},
 #endif
     /* UART1 */
-#ifdef UART_1
+#if defined(UART1)
     {PF10, UART_1, 1},
     {PB9, UART_1, 2},
     {PE2, UART_1, 3},
@@ -204,12 +205,12 @@ const PinMap PinMap_UART_TX[] = {
 
 const PinMap PinMap_UART_RX[] = {
     /* UART0 */
-#ifdef UART_0
+#if defined(UART0)
     {PF7, UART_0, 0},
     {PE1, UART_0, 1},
 #endif
     /* UART1 */
-#ifdef UART_1
+#if defined(UART1)
     {PF11, UART_1, 1},
     {PB10, UART_1, 2},
     {PE3, UART_1, 3},
